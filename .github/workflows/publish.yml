@@ -20,7 +20,6 @@ jobs:
         uses: docker/metadata-action@v5.5.1
         with:
           images: |
-            ${{ github.repository_owner }}/ftp-server
             ghcr.io/${{ github.repository_owner }}/ftp-server
           tags: |
             type=edge,branch=main
